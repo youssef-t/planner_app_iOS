@@ -1,24 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="planner_app_iOS_" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chill-wallpapers-awesome-cold-frosted-wallpapers-for-iphone-of-the-day-of-chill-wallpapers" translatesAutoresizingMaskIntoConstraints="NO" id="Mer-3T-PJr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhw-nq-fot">
+                                <rect key="frame" x="82" y="341" width="251" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="Check today's tasks">
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
+                                    <color key="titleShadowColor" systemColor="systemTealColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25" scale="medium" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickTodayTasks:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4y0-p4-w27"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6A-bW-CfR">
+                                <rect key="frame" x="51" y="435" width="313" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="tintColor" systemColor="systemIndigoColor"/>
+                                <state key="normal" title="Check your planning">
+                                    <color key="titleColor" systemColor="systemOrangeColor"/>
+                                    <color key="titleShadowColor" systemColor="systemTealColor"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="25" scale="medium" weight="medium"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickAllPlanning:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uDD-2K-6eT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Mer-3T-PJr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ett-l9-rTy"/>
+                            <constraint firstItem="Mer-3T-PJr" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ivh-Av-HvZ"/>
+                            <constraint firstItem="Mer-3T-PJr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JmQ-tP-0Pn"/>
+                            <constraint firstAttribute="bottom" secondItem="Mer-3T-PJr" secondAttribute="bottom" id="p3X-Po-dYc"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="allPlanning" destination="h6A-bW-CfR" id="Yn9-l3-tyx"/>
+                        <outlet property="todayTasks" destination="Rhw-nq-fot" id="67f-UO-ehv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="13.043478260869566" y="103.79464285714285"/>
+        </scene>
+        <!--View Controller All Planning-->
+        <scene sceneID="fHS-SH-NfD">
+            <objects>
+                <viewController storyboardIdentifier="allPlanningVC" id="QDP-05-yNx" customClass="ViewControllerAllPlanning" customModule="planner_app_iOS_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aZC-do-Uws">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chill-wallpapers-awesome-cold-frosted-wallpapers-for-iphone-of-the-day-of-chill-wallpapers" translatesAutoresizingMaskIntoConstraints="NO" id="Aal-GM-ftK">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vy7-g1-3Ty">
+                                <rect key="frame" x="75" y="72" width="66" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="08Z-6E-rMr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Aal-GM-ftK" firstAttribute="top" secondItem="aZC-do-Uws" secondAttribute="top" id="7i9-rJ-ybW"/>
+                            <constraint firstItem="Aal-GM-ftK" firstAttribute="leading" secondItem="aZC-do-Uws" secondAttribute="leading" id="DqF-ZU-aWJ"/>
+                            <constraint firstAttribute="bottom" secondItem="Aal-GM-ftK" secondAttribute="bottom" id="JfM-7e-Der"/>
+                            <constraint firstAttribute="trailing" secondItem="Aal-GM-ftK" secondAttribute="trailing" id="R8c-Tt-lLE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04K-bH-xeZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1253.6231884057972" y="-129.24107142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jkg-3N-8AJ">
+            <objects>
+                <viewController id="9jP-2w-Wzm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rfg-Zw-HSi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chill-wallpapers-awesome-cold-frosted-wallpapers-for-iphone-of-the-day-of-chill-wallpapers" translatesAutoresizingMaskIntoConstraints="NO" id="sAU-Cb-7Xm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fh8-go-u6z"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="sAU-Cb-7Xm" secondAttribute="trailing" id="HBr-n5-t8I"/>
+                            <constraint firstAttribute="bottom" secondItem="sAU-Cb-7Xm" secondAttribute="bottom" id="XJm-87-Ydm"/>
+                            <constraint firstItem="sAU-Cb-7Xm" firstAttribute="leading" secondItem="rfg-Zw-HSi" secondAttribute="leading" id="XVo-3K-xmL"/>
+                            <constraint firstItem="sAU-Cb-7Xm" firstAttribute="top" secondItem="rfg-Zw-HSi" secondAttribute="top" id="XdI-dJ-Lgu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Vv-uW-34F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1253.6231884057972" y="602.67857142857144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WoB-84-1U9">
+            <objects>
+                <viewController id="meu-JB-M7P" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ydx-zl-8bq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chill-wallpapers-awesome-cold-frosted-wallpapers-for-iphone-of-the-day-of-chill-wallpapers" translatesAutoresizingMaskIntoConstraints="NO" id="w26-IK-hfX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add task" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heK-29-N6Z">
+                                <rect key="frame" x="93" y="102" width="67" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="bLG-zW-vZn">
+                                <rect key="frame" x="10" y="211" width="369" height="146"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            </datePicker>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ph5-TV-Qxe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="w26-IK-hfX" secondAttribute="trailing" id="Kl0-rb-HGY"/>
+                            <constraint firstItem="w26-IK-hfX" firstAttribute="top" secondItem="Ydx-zl-8bq" secondAttribute="top" id="eAg-oi-2FU"/>
+                            <constraint firstAttribute="bottom" secondItem="w26-IK-hfX" secondAttribute="bottom" id="mbM-d5-Bgw"/>
+                            <constraint firstItem="w26-IK-hfX" firstAttribute="leading" secondItem="Ydx-zl-8bq" secondAttribute="leading" id="woE-Mq-M1c"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SKv-Lk-zWC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2226.0869565217395" y="-129.24107142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chill-wallpapers-awesome-cold-frosted-wallpapers-for-iphone-of-the-day-of-chill-wallpapers" width="1242" height="2208"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller All Planning-->
+        <scene sceneID="ceu-94-ZHv">
+            <objects>
+                <viewController id="Go3-6e-RgO" customClass="ViewControllerAllPlanning" customModule="planner_app_iOS_" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Nq-u1-U4Q">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chill-wallpapers-awesome-cold-frosted-wallpapers-for-iphone-of-the-day-of-chill-wallpapers" translatesAutoresizingMaskIntoConstraints="NO" id="ByD-Qm-j9J">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="un6-RD-VCy">
+                                <rect key="frame" x="20" y="44" width="105" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IRY-YD-5W6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ByD-Qm-j9J" firstAttribute="leading" secondItem="3Nq-u1-U4Q" secondAttribute="leading" id="8jd-zb-yS5"/>
+                            <constraint firstAttribute="bottom" secondItem="ByD-Qm-j9J" secondAttribute="bottom" id="ZSr-n9-Wyb"/>
+                            <constraint firstItem="ByD-Qm-j9J" firstAttribute="top" secondItem="3Nq-u1-U4Q" secondAttribute="top" id="ejE-AT-LHF"/>
+                            <constraint firstAttribute="trailing" secondItem="ByD-Qm-j9J" secondAttribute="trailing" id="sX4-9d-GYt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZr-Wf-rC0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-139" y="33"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="chill-wallpapers-awesome-cold-frosted-wallpapers-for-iphone-of-the-day-of-chill-wallpapers" width="1242" height="2208"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
