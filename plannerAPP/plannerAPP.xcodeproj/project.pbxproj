@@ -7,35 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4005551825AC37070063AFAB /* ViewControllerTodayTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005551725AC37070063AFAB /* ViewControllerTodayTasks.swift */; };
-		4005551C25AC44AB0063AFAB /* ViewControllerAddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005551B25AC44AB0063AFAB /* ViewControllerAddTask.swift */; };
-		400555A225AC5EAE0063AFAB /* ModelTasks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 400555A025AC5EAE0063AFAB /* ModelTasks.xcdatamodeld */; };
-		40AB6D6B25A4997100037C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB6D6A25A4997100037C98 /* AppDelegate.swift */; };
-		40AB6D6D25A4997100037C98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB6D6C25A4997100037C98 /* SceneDelegate.swift */; };
-		40AB6D6F25A4997100037C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB6D6E25A4997100037C98 /* ViewController.swift */; };
-		40AB6D7225A4997100037C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB6D7025A4997100037C98 /* Main.storyboard */; };
-		40AB6D7425A4997200037C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AB6D7325A4997200037C98 /* Assets.xcassets */; };
-		40AB6D7725A4997200037C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB6D7525A4997200037C98 /* LaunchScreen.storyboard */; };
-		40AB6D8B25A4B62E00037C98 /* ViewControllerAllPlanning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB6D8A25A4B62E00037C98 /* ViewControllerAllPlanning.swift */; };
+		4005552B25AC50C30063AFAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005552A25AC50C30063AFAB /* AppDelegate.swift */; };
+		4005552D25AC50C30063AFAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005552C25AC50C30063AFAB /* SceneDelegate.swift */; };
+		4005552F25AC50C30063AFAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4005552E25AC50C30063AFAB /* ViewController.swift */; };
+		4005553225AC50C30063AFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4005553025AC50C30063AFAB /* Main.storyboard */; };
+		4005553525AC50C30063AFAB /* plannerAPP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4005553325AC50C30063AFAB /* plannerAPP.xcdatamodeld */; };
+		4005553725AC50C50063AFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4005553625AC50C50063AFAB /* Assets.xcassets */; };
+		4005553A25AC50C50063AFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4005553825AC50C50063AFAB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4005551725AC37070063AFAB /* ViewControllerTodayTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTodayTasks.swift; sourceTree = "<group>"; };
-		4005551B25AC44AB0063AFAB /* ViewControllerAddTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAddTask.swift; sourceTree = "<group>"; };
-		400555A125AC5EAE0063AFAB /* ModelTasks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelTasks.xcdatamodel; sourceTree = "<group>"; };
-		40AB6D6725A4997100037C98 /* planner_app_iOS..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = planner_app_iOS..app; sourceTree = BUILT_PRODUCTS_DIR; };
-		40AB6D6A25A4997100037C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		40AB6D6C25A4997100037C98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40AB6D6E25A4997100037C98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		40AB6D7125A4997100037C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		40AB6D7325A4997200037C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		40AB6D7625A4997200037C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		40AB6D7825A4997200037C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		40AB6D8A25A4B62E00037C98 /* ViewControllerAllPlanning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAllPlanning.swift; sourceTree = "<group>"; };
+		4005552725AC50C30063AFAB /* plannerAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = plannerAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4005552A25AC50C30063AFAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4005552C25AC50C30063AFAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4005552E25AC50C30063AFAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4005553125AC50C30063AFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4005553425AC50C30063AFAB /* plannerAPP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = plannerAPP.xcdatamodel; sourceTree = "<group>"; };
+		4005553625AC50C50063AFAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4005553925AC50C50063AFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4005553B25AC50C50063AFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40AB6D6425A4997100037C98 /* Frameworks */ = {
+		4005552425AC50C30063AFAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,75 +39,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40AB6D5E25A4997100037C98 = {
+		4005551E25AC50C30063AFAB = {
 			isa = PBXGroup;
 			children = (
-				40AB6D6925A4997100037C98 /* planner_app_iOS. */,
-				40AB6D6825A4997100037C98 /* Products */,
+				4005552925AC50C30063AFAB /* plannerAPP */,
+				4005552825AC50C30063AFAB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		40AB6D6825A4997100037C98 /* Products */ = {
+		4005552825AC50C30063AFAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40AB6D6725A4997100037C98 /* planner_app_iOS..app */,
+				4005552725AC50C30063AFAB /* plannerAPP.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40AB6D6925A4997100037C98 /* planner_app_iOS. */ = {
+		4005552925AC50C30063AFAB /* plannerAPP */ = {
 			isa = PBXGroup;
 			children = (
-				40AB6D6A25A4997100037C98 /* AppDelegate.swift */,
-				400555A025AC5EAE0063AFAB /* ModelTasks.xcdatamodeld */,
-				40AB6D6C25A4997100037C98 /* SceneDelegate.swift */,
-				40AB6D6E25A4997100037C98 /* ViewController.swift */,
-				40AB6D8A25A4B62E00037C98 /* ViewControllerAllPlanning.swift */,
-				40AB6D7025A4997100037C98 /* Main.storyboard */,
-				4005551B25AC44AB0063AFAB /* ViewControllerAddTask.swift */,
-				4005551725AC37070063AFAB /* ViewControllerTodayTasks.swift */,
-				40AB6D7325A4997200037C98 /* Assets.xcassets */,
-				40AB6D7525A4997200037C98 /* LaunchScreen.storyboard */,
-				40AB6D7825A4997200037C98 /* Info.plist */,
+				4005552A25AC50C30063AFAB /* AppDelegate.swift */,
+				4005552C25AC50C30063AFAB /* SceneDelegate.swift */,
+				4005552E25AC50C30063AFAB /* ViewController.swift */,
+				4005553025AC50C30063AFAB /* Main.storyboard */,
+				4005553625AC50C50063AFAB /* Assets.xcassets */,
+				4005553825AC50C50063AFAB /* LaunchScreen.storyboard */,
+				4005553B25AC50C50063AFAB /* Info.plist */,
+				4005553325AC50C30063AFAB /* plannerAPP.xcdatamodeld */,
 			);
-			path = planner_app_iOS.;
+			path = plannerAPP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40AB6D6625A4997100037C98 /* planner_app_iOS. */ = {
+		4005552625AC50C30063AFAB /* plannerAPP */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40AB6D7B25A4997200037C98 /* Build configuration list for PBXNativeTarget "planner_app_iOS." */;
+			buildConfigurationList = 4005553E25AC50C50063AFAB /* Build configuration list for PBXNativeTarget "plannerAPP" */;
 			buildPhases = (
-				40AB6D6325A4997100037C98 /* Sources */,
-				40AB6D6425A4997100037C98 /* Frameworks */,
-				40AB6D6525A4997100037C98 /* Resources */,
+				4005552325AC50C30063AFAB /* Sources */,
+				4005552425AC50C30063AFAB /* Frameworks */,
+				4005552525AC50C30063AFAB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = planner_app_iOS.;
-			productName = planner_app_iOS.;
-			productReference = 40AB6D6725A4997100037C98 /* planner_app_iOS..app */;
+			name = plannerAPP;
+			productName = plannerAPP;
+			productReference = 4005552725AC50C30063AFAB /* plannerAPP.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		40AB6D5F25A4997100037C98 /* Project object */ = {
+		4005551F25AC50C30063AFAB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
-					40AB6D6625A4997100037C98 = {
+					4005552625AC50C30063AFAB = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 40AB6D6225A4997100037C98 /* Build configuration list for PBXProject "planner_app_iOS." */;
+			buildConfigurationList = 4005552225AC50C30063AFAB /* Build configuration list for PBXProject "plannerAPP" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -121,59 +112,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 40AB6D5E25A4997100037C98;
-			productRefGroup = 40AB6D6825A4997100037C98 /* Products */;
+			mainGroup = 4005551E25AC50C30063AFAB;
+			productRefGroup = 4005552825AC50C30063AFAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40AB6D6625A4997100037C98 /* planner_app_iOS. */,
+				4005552625AC50C30063AFAB /* plannerAPP */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		40AB6D6525A4997100037C98 /* Resources */ = {
+		4005552525AC50C30063AFAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40AB6D7725A4997200037C98 /* LaunchScreen.storyboard in Resources */,
-				40AB6D7425A4997200037C98 /* Assets.xcassets in Resources */,
-				40AB6D7225A4997100037C98 /* Main.storyboard in Resources */,
+				4005553A25AC50C50063AFAB /* LaunchScreen.storyboard in Resources */,
+				4005553725AC50C50063AFAB /* Assets.xcassets in Resources */,
+				4005553225AC50C30063AFAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40AB6D6325A4997100037C98 /* Sources */ = {
+		4005552325AC50C30063AFAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4005551825AC37070063AFAB /* ViewControllerTodayTasks.swift in Sources */,
-				40AB6D6F25A4997100037C98 /* ViewController.swift in Sources */,
-				400555A225AC5EAE0063AFAB /* ModelTasks.xcdatamodeld in Sources */,
-				40AB6D8B25A4B62E00037C98 /* ViewControllerAllPlanning.swift in Sources */,
-				40AB6D6B25A4997100037C98 /* AppDelegate.swift in Sources */,
-				40AB6D6D25A4997100037C98 /* SceneDelegate.swift in Sources */,
-				4005551C25AC44AB0063AFAB /* ViewControllerAddTask.swift in Sources */,
+				4005553525AC50C30063AFAB /* plannerAPP.xcdatamodeld in Sources */,
+				4005552F25AC50C30063AFAB /* ViewController.swift in Sources */,
+				4005552B25AC50C30063AFAB /* AppDelegate.swift in Sources */,
+				4005552D25AC50C30063AFAB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		40AB6D7025A4997100037C98 /* Main.storyboard */ = {
+		4005553025AC50C30063AFAB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40AB6D7125A4997100037C98 /* Base */,
+				4005553125AC50C30063AFAB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		40AB6D7525A4997200037C98 /* LaunchScreen.storyboard */ = {
+		4005553825AC50C50063AFAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				40AB6D7625A4997200037C98 /* Base */,
+				4005553925AC50C50063AFAB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,7 +169,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		40AB6D7925A4997200037C98 /* Debug */ = {
+		4005553C25AC50C50063AFAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		40AB6D7A25A4997200037C98 /* Release */ = {
+		4005553D25AC50C50063AFAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,36 +285,36 @@
 			};
 			name = Release;
 		};
-		40AB6D7C25A4997200037C98 /* Debug */ = {
+		4005553F25AC50C50063AFAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = planner_app_iOS./Info.plist;
+				INFOPLIST_FILE = plannerAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youssef-t.planner-app-iOS-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youssef-t.plannerAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		40AB6D7D25A4997200037C98 /* Release */ = {
+		4005554025AC50C50063AFAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = planner_app_iOS./Info.plist;
+				INFOPLIST_FILE = plannerAPP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youssef-t.planner-app-iOS-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youssef-t.plannerAPP";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,20 +324,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40AB6D6225A4997100037C98 /* Build configuration list for PBXProject "planner_app_iOS." */ = {
+		4005552225AC50C30063AFAB /* Build configuration list for PBXProject "plannerAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40AB6D7925A4997200037C98 /* Debug */,
-				40AB6D7A25A4997200037C98 /* Release */,
+				4005553C25AC50C50063AFAB /* Debug */,
+				4005553D25AC50C50063AFAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40AB6D7B25A4997200037C98 /* Build configuration list for PBXNativeTarget "planner_app_iOS." */ = {
+		4005553E25AC50C50063AFAB /* Build configuration list for PBXNativeTarget "plannerAPP" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40AB6D7C25A4997200037C98 /* Debug */,
-				40AB6D7D25A4997200037C98 /* Release */,
+				4005553F25AC50C50063AFAB /* Debug */,
+				4005554025AC50C50063AFAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -357,17 +345,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		400555A025AC5EAE0063AFAB /* ModelTasks.xcdatamodeld */ = {
+		4005553325AC50C30063AFAB /* plannerAPP.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				400555A125AC5EAE0063AFAB /* ModelTasks.xcdatamodel */,
+				4005553425AC50C30063AFAB /* plannerAPP.xcdatamodel */,
 			);
-			currentVersion = 400555A125AC5EAE0063AFAB /* ModelTasks.xcdatamodel */;
-			path = ModelTasks.xcdatamodeld;
+			currentVersion = 4005553425AC50C30063AFAB /* plannerAPP.xcdatamodel */;
+			path = plannerAPP.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 40AB6D5F25A4997100037C98 /* Project object */;
+	rootObject = 4005551F25AC50C30063AFAB /* Project object */;
 }
